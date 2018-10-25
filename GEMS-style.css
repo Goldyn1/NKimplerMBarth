@@ -1,6 +1,6 @@
 <style>
 body {
-  font-family: Algerian;
+  font-family: "Lato", sans-serif;
   background-color: #111
   height: 3000px;
   top: 0;
@@ -28,7 +28,36 @@ body {
   padding-left: 153px;
 }
 
-/*BANNER*/
+/* TABLE STYLING */
+
+.pagetitle {
+   font-size: 30px;
+   font-family: "Lato", sans-serif;
+   color: black;
+   font-weight: bold;
+}
+
+.pagebody {
+   font-size: 20px;
+   font-family: "Lato", sans-serif;
+   color: black;
+   font-weight: bold;
+   width: 80%;
+}
+
+
+hr.style-one {
+   border: 0;
+   height: 4px;
+   width: 80%;
+   background: #333;
+   background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}  
+
+/* LEFT NAV BAR STYLING */
 
 /* Fixed sidenav, full height */
 .sidenav {
@@ -47,7 +76,7 @@ body {
 .sidenav a, .dropdown-btn {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     border: none;
     background: none;
@@ -56,18 +85,12 @@ body {
     cursor: pointer;
     outline: none;
     display: block;
+    font-family: "Lato", sans-serif;
 }
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
     color: #f1f1f1;
-}
-
-/* Main content */
-.main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
 }
 
 /* Add an active class to the active dropdown button */
@@ -94,4 +117,5 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
 </style>
