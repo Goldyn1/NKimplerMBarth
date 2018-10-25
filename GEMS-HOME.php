@@ -16,225 +16,62 @@
 
   <head>
     <link rel="stylesheet" type="text/css" href="GEMS-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+
 <body>
 
-<style>
-body {
-    font-family: "Lato", sans-serif;
-    background-color: white;
-}
-</style>
-
 <div class="header">
-  <h1 align="center">GLOBAL ENTERTAINMENT MANAGEMENT SYSTEM</h1>
+  <h1 align="center">&#9835  GLOBAL ENTERTAINMENT MANAGEMENT SYSTEM  &#9835</h1>
 </div>
 
 <div class="pagecontents">
-  <table border=1 width=100%>
+  <table border=1 width=100% height=80%>
     <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
+      <td align=center height=10%><div class="pagetitle">G.E.M System Homepage</div><hr class="style-one"></td>
     </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
+    <tr>
+      <td align=center height=20%><div class="pagebody">Welcome %NAME%, to the Global Entertainment Management System.</div></td>
     </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
-
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
-
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Help</td>
-    </tr>
- <tr>
-      <td>Help</td>
-      <td>Help</td>
-      <td>Me</td>
-    </tr>
+    <tr>
+      <td height=70%></td>
   </table>
-
-<p>This is lame</p>
 </div>
 
 <div class="sidenav">
+  <br/>
+  <br/>
   <a href="#about">Home</a>
-  <button class="dropdown-btn">Agents
+  <button class="dropdown-btn">Agent
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
     <a href="#">Create</a>
     <a href="#">Update</a>
   </div>
- <button class="dropdown-btn">Artists
+ <button class="dropdown-btn">Artist
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
     <a href="#">Create</a>
     <a href="#">Update</a>
   </div>
- <button class="dropdown-btn">Bands
+ <button class="dropdown-btn">Band
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
     <a href="#">Create</a>
     <a href="#">Update</a>
   </div>
- <button class="dropdown-btn">Vendors
+ <button class="dropdown-btn">Vendor
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
     <a href="#">Create</a>
     <a href="#">Update</a>
   </div>
- <button class="dropdown-btn">Events
+ <button class="dropdown-btn">Event
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
@@ -261,7 +98,6 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
-
 </script>
 
 </body>
