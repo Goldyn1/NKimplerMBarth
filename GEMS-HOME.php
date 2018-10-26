@@ -4,7 +4,7 @@
                          - TA:   ????
      Names:
            Nathanael Kimpler  - Z1813114
-           Micahel Barth      - Z1780089
+           Michael Barth      - Z1780089
 
      Purpose:
 
@@ -40,6 +40,9 @@
 </div>
 
 <div class="sidenav">
+  <br/>
+  <br/>
+  <br/>
   <br/>
   <br/>
   <a href="#about">Home</a>
@@ -99,6 +102,12 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 </script>
+
+<footer>
+
+  <p>HEY</p>
+
+</footer>
 
 </body>
 </html>
